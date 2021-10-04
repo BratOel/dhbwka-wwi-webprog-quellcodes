@@ -1,38 +1,38 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Aufgabe: npmjs.com – Musterlösung</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
+<!DOCTYPE html> <!-- Content Beschreibung. Sagt dem Browser, dass es sich um ein html Dokument handelt -->
+<html> <!-- Öffnet html Tag -->
+    <head> <!-- Öffnet unsichtbare head section -->
+        <meta charset="utf-8" /> <!-- Legt Zeichensatz auf utf-8 fest, damit der Browser die Webseite richtig entziffern kann (z.B. ö,ä,ü,...) -->
+        <title>Aufgabe: npmjs.com – Musterlösung</title> <!-- Titel der Webseite -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Legt die komplette Bildschirmbreite zur Begrenzung und Skalierung fest. (Responsive Design) -->
+        <link rel="stylesheet" href="style.css" /> <!-- Bindet externe Resource ein (Stylesheet CSS) -->
+    </head> <!-- Schließt head section -->
+    <body> <!-- Öffnet body section -->
         <!-- Kopfbereich mit Navigation und Suche -->
-        <header>
-            <nav class="max-width">
-                <div id="slogan">
-                    ❤️ Nervously Proposing Marriage
-                </div>
-                <ul>
-                    <li>
-                        <a href="#">Products</a>
-                    </li>
-                    <li>
-                        <a href="#">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#">Documentation</a>
-                    </li>
-                    <li>
-                        <a href="#">Community</a>
-                    </li>
-                </ul>
-            </nav>
+        <header> <!-- Öffnet header section -->
+            <nav class="max-width"> <!-- Navigationsleiste mit Verknüpfung auf CSS Klasse "max-width" -->
+                <div id="slogan"> <!-- Container und setzt ID "slogan" -->
+                    ❤️ Nervously Proposing Marriage <!-- Inhalt des Containers -->
+                </div> <!-- Schließt Container -->
+                <ul> <!-- Öffnet neue Lsite -->
+                    <li> <!-- Neues Listenelement -->
+                        <a href="#">Products</a> <!-- Verlinkung auf "#" (Anfang des Dokuments) mit dem Text Products -->
+                    </li> <!-- Schließt Listenelement -->
+                    <li><!-- Neues Listenelement -->
+                        <a href="#">Pricing</a> <!-- Verlinkung auf "#" (Anfang des Dokuments) mit dem Text Pricing -->
+                    </li><!-- Schließt Listenelement -->
+                    <li><!-- Neues Listenelement -->
+                        <a href="#">Documentation</a> <!-- Verlinkung auf "#" (Anfang des Dokuments) mit dem Text Documentation -->
+                    </li><!-- Schließt Listenelement -->
+                    <li><!-- Neues Listenelement -->
+                        <a href="#">Community</a> <!-- Verlinkung auf "#" (Anfang des Dokuments) mit dem Text Community -->
+                    </li><!-- Schließt Listenelement -->
+                </ul> <!-- Schließt neue Lsite -->
+            </nav> <!-- Schließt Navigationsleiste -->
 
-            <div class="line"></div>
+            <div class="line"></div> <!-- Leerer Container mit Verknüpfung auf CSS Klasse "line"  -->
 
-            <div id="searchbar" class="max-width">
-                <input type="text" placeholder="Search packages" />
+            <div id="searchbar" class="max-width"> <!-- Öffnet Container mit Verknüpfung auf CSS Klasse "max-width" und setzt die ID "searchbar"  -->
+                <input type="text" placeholder="Search packages" /> <!-- Erstellt Textfeld mit Usereingabe. Ohne Eingabe steht ein Platzhalter mit dem Inhalt "Search packages" -->
                 <button class="black">Search</button>
                 <button class="white">Sign Up</button>
                 <button class="transparent">Sign In</button>
